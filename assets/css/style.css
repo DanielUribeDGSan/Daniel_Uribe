@@ -2329,8 +2329,9 @@ h2.project_heading:after {
 }
 
 .port_testimonial_setions .testimonial_top_box .testimonial_img {
-    border: 5px solid rgb(0, 200, 218);
-    height: 484px;
+    box-shadow: 0px 12px 29px 0px rgb(0, 0, 0, 0.09);
+    border-radius: 20px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -3353,6 +3354,21 @@ h2.project_heading:after {
     transition: width .6s ease;
     padding: 10px;
 }
+
+
+/* Adicionales */
+
+.videoActive {
+    font-size: 20px;
+}
+
+.videoInactive {
+    color: #ffc107;
+    font-size: 20px;
+}
+
+
+/* Mobile */
 
 @media (max-width:1199px) {
     .selfintro_section .about_leftsection {
