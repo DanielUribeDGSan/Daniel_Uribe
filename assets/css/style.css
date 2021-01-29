@@ -187,7 +187,7 @@ ul {
 }
 
 .c-pink {
-    color: rgb(255, 81, 126)
+    color: #00adb5
 }
 
 .c-orange {
@@ -203,7 +203,7 @@ ul {
 }
 
 .bg-pink {
-    background-color: rgb(255, 81, 126)
+    background-color: #00adb5
 }
 
 .bg-orange {
@@ -405,7 +405,7 @@ ul {
 }
 
 .portfolio_btn:hover {
-    background: #ff517e;
+    background: #222831;
     color: #ffffff;
 }
 
@@ -1016,16 +1016,16 @@ p.banner_pera:after {
 }
 
 .portfolio_btn.btn_yellow:hover {
-    box-shadow: 0px 8px 20px 0px rgba(255, 81, 126, 0.3);
+    box-shadow: 0px 8px 20px 0px #00adb5;
 }
 
 .portfolio_btn.btn_red {
-    background-color: rgb(255, 81, 126);
-    -webkit-box-shadow: 0px 8px 20px 0px rgba(255, 81, 126, 0.3);
-    -moz-box-shadow: 0px 8px 20px 0px rgba(255, 81, 126, 0.3);
-    -ms-box-shadow: 0px 8px 20px 0px rgba(255, 81, 126, 0.3);
-    -o-box-shadow: 0px 8px 20px 0px rgba(255, 81, 126, 0.3);
-    box-shadow: 0px 8px 20px 0px rgba(255, 81, 126, 0.3);
+    background-color: #00adb5;
+    -webkit-box-shadow: 0px 8px 20px 0px #00adb5;
+    -moz-box-shadow: 0px 8px 20px 0px #00adb5;
+    -ms-box-shadow: 0px 8px 20px 0px #00adb5;
+    -o-box-shadow: 0px 8px 20px 0px #00adb5;
+    box-shadow: 0px 8px 20px 0px #00adb5;
     color: #fff;
 }
 
@@ -1381,7 +1381,7 @@ p.banner_pera:after {
 }
 
 .about_leftsection.open_details .icon {
-    background: #ff517e;
+    background: #222831;
 }
 
 .selfintro_section .about_leftsection:after {
@@ -1392,7 +1392,7 @@ p.banner_pera:after {
     left: -25px;
     height: 100%;
     width: 90%;
-    border: 4px solid #ff517e;
+    border: 4px solid #222831;
     z-index: -1;
 }
 
@@ -1493,7 +1493,7 @@ span.value a {
 
 .personal_details a.social-button:hover {
     color: #ffffff;
-    background-color: #ff517e;
+    background-color: #222831;
 }
 
 
@@ -1508,7 +1508,7 @@ span.value a {
 .education_main_wrapper:after {
     content: "";
     position: absolute;
-    background-color: #ff517e;
+    background-color: #222831;
     width: 2px;
     top: -10px;
     bottom: 90px;
@@ -1530,10 +1530,10 @@ span.value a {
     border: 10px solid;
     width: 125px;
     height: 125px;
-    border-radius: 50%;
+    border-radius: 0px;
     line-height: 105px;
     text-align: center;
-    font-size: 24px;
+    font-size: 19px;
     position: relative;
     color: #bfbfbf;
     font-weight: 600;
@@ -1748,8 +1748,8 @@ h3.education_place {
 }
 
 .education_box.firstbox h1 {
-    border-color: rgb(255, 81, 126);
-    color: rgb(255, 81, 126);
+    border-color: #00adb5;
+    color: #00adb5;
 }
 
 .education_box.secondbox h1 {
@@ -1768,7 +1768,7 @@ h3.education_place {
 }
 
 .education_box.firstbox .edu_mainyear h1:after {
-    border-left-color: rgb(255, 81, 126);
+    border-left-color: #00adb5;
 }
 
 .education_box.secondbox .edu_mainyear h1:after {
@@ -1784,7 +1784,7 @@ h3.education_place {
 }
 
 .education_box.firstbox .edu_mainyear h1:before {
-    border-color: rgb(255, 81, 126);
+    border-color: #00adb5;
 }
 
 .education_box.secondbox .edu_mainyear h1:before {
@@ -1800,7 +1800,7 @@ h3.education_place {
 }
 
 .education_box.firstbox .edu_mainyear:after {
-    background: rgb(255, 81, 126);
+    background: #00adb5;
 }
 
 .education_box.secondbox .edu_mainyear:after {
@@ -1841,8 +1841,8 @@ h3.education_place {
 }
 
 .port_progress_setions .circle canvas {
-    width: 200px!important;
-    height: 200px!important;
+    width: 100px!important;
+    height: 100px!important;
 }
 
 .port_progress_setions .circle strong {
@@ -1898,7 +1898,7 @@ h3.education_place {
 }
 
 .port_experience_setions .ex_leftside {
-    background: #ff517e;
+    background: #222831;
     border-radius: 3px;
     padding: 23px 20px;
     position: relative;
@@ -1934,7 +1934,7 @@ h3.education_place {
     content: "";
     right: -22px;
     top: 80px;
-    border-left: 11px solid #ff517e;
+    border-left: 11px solid #222831;
     border-right: 11px solid #ffffff00;
     border-top: 11px solid #ffffff00;
     border-bottom: 11px solid #ffffff00;
@@ -1946,7 +1946,7 @@ h3.education_place {
     left: -22px;
     top: 96px;
     border-left: 11px solid #f6483a00;
-    border-right: 11px solid #ff517e;
+    border-right: 11px solid #222831;
     border-top: 11px solid #ffffff00;
     border-bottom: 11px solid #ffffff00;
 }
@@ -2023,7 +2023,7 @@ h3.education_place {
 }
 
 .experience_section .col-md-12:nth-child(6) .ex_leftside {
-    background: #ff517e;
+    background: #222831;
 }
 
 .experience_section .col-md-12:nth-child(2) .ex_leftside:after {
@@ -2043,7 +2043,7 @@ h3.education_place {
 }
 
 .experience_section .col-md-12:nth-child(6) .ex_leftside:after {
-    border-left-color: #ff517e;
+    border-left-color: #222831;
 }
 
 
@@ -2063,20 +2063,30 @@ h3.education_place {
 /*================== 09 Start Services section css ==================  */
 
 .port_services_setions {
-    background: #f7fbff;
     padding-bottom: 50px;
 }
 
+.port_services_box_wrapper {
+    display: table;
+    width: 100%;
+}
+
 .port_services_setions .port_services_box {
+    display: table-cell;
+    vertical-align: middle;
     transition: all 0.5s;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(235, 235, 235);
+    box-shadow: 0px 12px 29px 0px rgb(0, 0, 0, 0.09);
+    border-color: #00000000;
     padding: 30px;
-    max-width: 500px;
+    width: 100%;
+    height: 230px;
+    overflow: auto;
     margin: auto;
     position: relative;
     z-index: 0;
     margin-bottom: 30px;
+    border-radius: 20px;
 }
 
 .port_services_setions .port_services_box:hover {
@@ -2244,7 +2254,7 @@ h2.project_heading:after {
     -ms-transition: ease all 0.55s;
     -o-transition: ease all 0.55s;
     transition: ease all 0.55s;
-    background: #ff517e;
+    background: #222831;
 }
 
 .port_project_gallery .gallery_nav ul li a.gallery_active:after {
@@ -2252,7 +2262,7 @@ h2.project_heading:after {
 }
 
 .port_project_gallery .gallery_nav ul li .gallery_active {
-    color: #ff517e;
+    color: #222831;
 }
 
 
@@ -2561,7 +2571,7 @@ h2.project_heading:after {
 
 .port_blog_setions .port_blog_contentbox .blog_info a {
     margin-left: 10px;
-    color: #ff517e;
+    color: #222831;
 }
 
 .port_blog_setions .port_blog_contentbox p {
@@ -2577,7 +2587,7 @@ h2.project_heading:after {
 }
 
 .port_blog_setions .port_blog_contentbox .blog_info ul li i {
-    color: #ff517e;
+    color: #222831;
     vertical-align: middle;
 }
 
@@ -2593,7 +2603,7 @@ h2.project_heading:after {
 }
 
 .readmore_btn:hover {
-    color: #ff517e;
+    color: #222831;
     letter-spacing: 1px;
 }
 
@@ -2851,13 +2861,13 @@ h2.project_heading:after {
 
 .blog_postinfo ul li a:hover,
 .blog_shareinfo .blog_tag a:hover {
-    color: #ff517e;
+    color: #222831;
 }
 
 .blog_postinfo ul li a i,
 .blog_shareinfo .blog_tag a i {
     padding-right: 5px;
-    color: #ff517e;
+    color: #222831;
 }
 
 .blog_postinfo ul li:last-child::after {
@@ -2958,7 +2968,7 @@ h2.project_heading:after {
 
 .comment_data .client_name span {
     letter-spacing: 2px;
-    color: #ff517e;
+    color: #222831;
     margin: 5px 0;
     display: block;
     text-transform: capitalize;
@@ -2994,8 +3004,8 @@ h2.project_heading:after {
 
 .comment_reply:hover,
 .comment_reply:focus {
-    background: rgb(255, 81, 126);
-    border-color: rgb(255, 81, 126);
+    background: #00adb5;
+    border-color: #00adb5;
     color: #ffffff;
 }
 
@@ -3040,7 +3050,7 @@ h2.project_heading:after {
     position: absolute;
     right: 0;
     top: 0;
-    color: #ff517e;
+    color: #222831;
 }
 
 .blogsidebar_wrapper .widget .form-control:focus {
@@ -3080,7 +3090,7 @@ h2.project_heading:after {
 }
 
 .widget .widget_rp .rp_date {
-    color: #ff517e;
+    color: #222831;
     text-transform: capitalize;
 }
 
@@ -3165,7 +3175,7 @@ h2.project_heading:after {
 }
 
 .widget.categroies_widget ul li a:hover {
-    color: #ff517e;
+    color: #222831;
 }
 
 .widget.tag_widget ul li {
@@ -3205,7 +3215,7 @@ h2.project_heading:after {
     top: 0;
     right: 15px;
     color: #ffffff;
-    background-color: #ff517e;
+    background-color: #222831;
     z-index: 4;
     width: 40px;
     text-align: center;
@@ -3317,7 +3327,7 @@ h2.project_heading:after {
 .port_sidebar_wrapper .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
 .port_sidebar_wrapper .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
 .port_sidebar_wrapper .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
-    background-color: #ff517e;
+    background-color: #222831;
 }
 
 
@@ -3325,6 +3335,23 @@ h2.project_heading:after {
 
 
 /*================== 20 start media query css ==================  */
+
+
+/* Progress bar */
+
+.progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #00c8da !important;
+    transition: width .6s ease;
+}
 
 @media (max-width:1199px) {
     .selfintro_section .about_leftsection {
@@ -3518,7 +3545,7 @@ h2.project_heading:after {
     }
     .education_box.firstbox .edu_mainyear h1:after {
         border-left-color: transparent;
-        border-top-color: #ff517e;
+        border-top-color: #222831;
     }
     .education_box.thirdbox .edu_mainyear h1:after {
         border-left-color: transparent;
@@ -3637,7 +3664,7 @@ h2.project_heading:after {
     .ex_leftsidebox .ex_leftside:after {
         border-left: 11px solid transparent;
         border-right: 11px solid transparent;
-        border-top: 11px solid #ff517e;
+        border-top: 11px solid #222831;
         border-bottom: 11px solid transparent;
         bottom: -22px;
         left: 30px;
