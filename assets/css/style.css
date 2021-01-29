@@ -3349,8 +3349,9 @@ h2.project_heading:after {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #00c8da !important;
+    background-color: #ffc454 !important;
     transition: width .6s ease;
+    padding: 10px;
 }
 
 @media (max-width:1199px) {
