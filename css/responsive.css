@@ -242,7 +242,7 @@
 @media only screen and (max-width: 599px) {
 	.right-content .download-cv {
 		position: fixed;
-		top: 10px;
+		top: 90px;
 		right: 10px;
 	}
 
