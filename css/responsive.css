@@ -139,7 +139,12 @@
 
 	.site-container .right-content {
 		float: none;
-	}
+		border-radius: 0px 0px 20px 20px;
+		-webkit-border-radius: 0px 0px 20px 20px;
+		-moz-border-radius: 0px 0px 20px 20px;
+		-ms-border-radius: 0px 0px 20px 20px;
+		-o-border-radius: 0px 0px 20px 20px;
+}
 
 	.left-bar .left-upper .social-links {
 		display: none;
