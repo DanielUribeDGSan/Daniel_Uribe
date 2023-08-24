@@ -1,942 +1,1085 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Daniel Uribe García</title>
     <!-- Stylesheets -->
-    <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./css/style.css?ver=1.0.2" rel="stylesheet">
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <link href="./css/bootstrap.css" rel="stylesheet" />
+    <link href="./css/style.css?ver=1.0.2" rel="stylesheet" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon" />
     <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <link href="./css/responsive.css?ver=1.0.2" rel="stylesheet">
-</head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link href="./css/responsive.css?ver=1.0.2" rel="stylesheet" />
+  </head>
 
-<body class="home-body">
-
-    <div class="body-bg" style="background-image: url('./images/fondo.jpg');"></div>
+  <body class="home-body">
+    <div
+      class="body-bg"
+      style="background-image: url('./images/fondo.jpg')"
+    ></div>
 
     <div class="page-wrapper">
+      <!-- Preloader -->
+      <div class="preloader">
+        <div class="icon"></div>
+      </div>
 
-        <!-- Preloader -->
-        <div class="preloader">
-            <div class="icon"></div>
-        </div>
-
-        <!-- Site Container-->
-        <div class="site-container">
-            <div class="auto-container">
-                <div class="mobile-header">
-                    <div class="inner">
-                        <div class="logo-side">
-                            <div class="image-box">
-                                <div class="image"><img src="./images/mi_foto.jpeg" alt=""></div>
-                            </div>
-                            <div class="info">
-                                <div class="name">Daniel Uribe García</div>
-                                <div class="designation">Desarrollador Full Stack</div>
-                                <div class="designation">25 años</div>
-                            </div>
-                        </div>
-                        <div class="social-links">
-                            <div class="social-btn"><i class="icon"><span class="fab fa-linkedin"></span></i></div>
-                            <ul class="links clearfix">
-                                <li><a href="https://www.facebook.com/profile.php?id=100011481813039"
-                                        target="_blank"><span class="fab fa-facebook-square"></span></a></li>
-                                <li><a href="https://www.instagram.com/_uribe_daniel/?fbclid=IwAR14Su1h3tXYrIhSSRI-_h3Wl7wu_0fLpPedjw3NuWR9x5C_DMgjBOA4xXY"
-                                        target="_blank"><span class="fab fa-instagram"></span></a></li>
-                                <li><a href="https://www.linkedin.com/in/daniel-uribe-garc%C3%ADa-b89b39192/"
-                                        target="_blank"><span class="fab fa-linkedin"></span></a></li>
-                            </ul>
-                        </div>
-                        <div class="nav-toggler"><img src="./images/icons/menu-icon.png" alt=""></div>
-                    </div>
+      <!-- Site Container-->
+      <div class="site-container">
+        <div class="auto-container">
+          <div class="mobile-header">
+            <div class="inner">
+              <div class="logo-side">
+                <div class="image-box">
+                  <div class="image">
+                    <img src="./images/mi_foto.jpeg" alt="" />
+                  </div>
                 </div>
-                <div class="site-content-container row clearfix">
-                    <!--Left Bar-->
-                    <div class="left-bar sticky-top col-xl-3 col-lg-4 col-md-12">
-                        <div class="left-inner">
-                            <div class="nav-toggler"><img src="./images/icons/close-icon.png" alt=""></div>
-                            <div class="left-upper">
-                                <div class="image-box">
-                                    <div class="image"><img src="./images/mi_foto.jpeg" alt=""></div>
-                                    <div class="social-links">
-                                        <div class="social-btn"><i class="icon"><span
-                                                    class="fab fa-linkedin"></span></i></div>
-                                        <ul class="links clearfix">
-                                            <li><a href="https://www.facebook.com/profile.php?id=100011481813039"
-                                                    target="_blank"><span class="fab fa-facebook-square"></span></a>
-                                            </li>
-                                            <li><a href="https://www.instagram.com/_uribe_daniel/?fbclid=IwAR14Su1h3tXYrIhSSRI-_h3Wl7wu_0fLpPedjw3NuWR9x5C_DMgjBOA4xXY"
-                                                    target="_blank"><span class="fab fa-instagram"></span></a></li>
-                                            <li><a href="https://www.linkedin.com/in/daniel-uribe-garc%C3%ADa-b89b39192/"
-                                                    target="_blank"><span class="fab fa-linkedin"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <div class="name">Daniel Uribe García</div>
-                                    <div class="designation"><i class="dot"></i> Desarrollador Full Stack</div>
-                                    <div class="designation"><i class="dot"></i> 25 años</div>
-                                </div>
-                            </div>
-                            <div class="left-lower">
-                                <nav class="main-nav">
-                                    <ul class="navigation scroll-nav">
-                                        <li class="home current"><a href="#home-section">Inicio</a></li>
-                                        <li class="experience"><a href="#resume-section">Experiencia</a></li>
-                                        <li class="work"><a href="#work-section">Trabajos realizados</a></li>
-                                        <li class="contact"><a href="#contact-section">Contacto</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
+                <div class="info">
+                  <div class="name">Daniel Uribe García</div>
+                  <div class="designation">Desarrollador Full Stack</div>
+                  <div class="designation">25 años</div>
+                </div>
+              </div>
+              <div class="social-links">
+                <div class="social-btn">
+                  <i class="icon"><span class="fab fa-linkedin"></span></i>
+                </div>
+                <ul class="links clearfix">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100011481813039"
+                      target="_blank"
+                      ><span class="fab fa-facebook-square"></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/_uribe_daniel/?fbclid=IwAR14Su1h3tXYrIhSSRI-_h3Wl7wu_0fLpPedjw3NuWR9x5C_DMgjBOA4xXY"
+                      target="_blank"
+                      ><span class="fab fa-instagram"></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/daniel-uribe-garc%C3%ADa-b89b39192/"
+                      target="_blank"
+                      ><span class="fab fa-linkedin"></span
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="nav-toggler">
+                <img src="./images/icons/menu-icon.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="site-content-container row clearfix">
+            <!--Left Bar-->
+            <div class="left-bar sticky-top col-xl-3 col-lg-4 col-md-12">
+              <div class="left-inner">
+                <div class="nav-toggler">
+                  <img src="./images/icons/close-icon.png" alt="" />
+                </div>
+                <div class="left-upper">
+                  <div class="image-box">
+                    <div class="image">
+                      <img src="./images/mi_foto.jpeg" alt="" />
                     </div>
-                    <!--Right Content-->
-                    <div class="right-content col-xl-9 col-lg-8 col-md-12">
-                        <div class="right-inner">
-                            <div class="content-container">
-                                <div class="home-content" id="home-section">
-                                    <!---Download CV-->
-                                    <div class="download-cv"><a href="./cv_daniel_uribe_2022_v5.pdf" target="_blank"
-                                            class="theme-btn download-btn"><i class="icon"><img
-                                                    src="./images/resource/icons/white/cv-1.png" alt=""></i><span
-                                                class="txt">Descargar CV</span></a></div>
-                                    <!--Welcome-->
-                                    <div class="welcome">
-                                        <h4>Hola Bienvenido(a)</h4>
-                                        <div class="text text-justify">Mi nombre es Daniel Uribe y tengo 3 años de
-                                            experiencia
-                                            en el desarrollo web en todo
-                                            este tiempo he elaborado
-                                            proyectos desde cero basados
-                                            en diseños entregados en
-                                            figma o adobe xd por
-                                            diseñadores UX.
-                                        </div>
-                                        <div class="text text-justify mt-2">
-                                            Así como también he desarrollado su funcionalidad con distintos lenguajes de
-                                            programación para back end, usando bases de
-                                            datos relaciones y no relacionales. Y teniendo el control de lo que se sube
-                                            a producción y revisión de código antes de
-                                            salir a producción usando github (git). Y todo con programación orientada a
-                                            objetos (POO)
-                                        </div>
-                                        <div class="text text-justify mt-2">
-                                            Me encanta mi trabajo y me
-                                            gusta siempre estar
-                                            actualizado aprender cosas
-                                            nuevas, adaptarme al entorno
-                                            de trabajo, trabajar en equipo,
-                                            trabajar bajo presión y
-                                            también ayudar a mejorar a
-                                            mis compañeros de trabajo, así
-                                            como aprender de los que
-                                            tienen mayor experiencia.
-                                        </div>
-                                        <div class="text text-justify mt-2">
-                                            Soy desarrollador full stack, pero también me gusta trabajar en puestos de
-                                            solo con front
-                                            end o solo back end.
-                                        </div>
-                                        <div class="text text-justify mt-2">
-                                            <strong>Mi ingles es básico y técnico para desarrollo</strong>, se que esto
-                                            me saca de muchas
-                                            oportunidades de trabajo, pero esto nunca ha sido un problema para poder
-                                            trabajar correctamente y entregar mis tareas en tiempo y en forma en
-                                            ningún empleo. Es mi meta de este año 2023 aprender al 100% inglés, antes no
-                                            pude por cosas personales y económicas, pero este año es
-                                            mi meta principal a cumplir.
-                                        </div>
+                    <div class="social-links">
+                      <div class="social-btn">
+                        <i class="icon"
+                          ><span class="fab fa-linkedin"></span
+                        ></i>
+                      </div>
+                      <ul class="links clearfix">
+                        <li>
+                          <a
+                            href="https://www.facebook.com/profile.php?id=100011481813039"
+                            target="_blank"
+                            ><span class="fab fa-facebook-square"></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.instagram.com/_uribe_daniel/?fbclid=IwAR14Su1h3tXYrIhSSRI-_h3Wl7wu_0fLpPedjw3NuWR9x5C_DMgjBOA4xXY"
+                            target="_blank"
+                            ><span class="fab fa-instagram"></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/in/daniel-uribe-garc%C3%ADa-b89b39192/"
+                            target="_blank"
+                            ><span class="fab fa-linkedin"></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://github.com/DanielUribeDGSan"
+                            target="_blank"
+                            ><span class="fab fa-github"></span
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <div class="name">Daniel Uribe García</div>
+                    <div class="designation">
+                      <i class="dot"></i> Desarrollador Full Stack
+                    </div>
+                    <div class="designation"><i class="dot"></i> 25 años</div>
+                  </div>
+                </div>
+                <div class="left-lower">
+                  <nav class="main-nav">
+                    <ul class="navigation scroll-nav">
+                      <li class="home current">
+                        <a href="#home-section">Inicio</a>
+                      </li>
+                      <li class="experience">
+                        <a href="#resume-section">Experiencia</a>
+                      </li>
+                      <li class="work">
+                        <a href="#work-section">Trabajos realizados</a>
+                      </li>
+                      <li class="contact">
+                        <a href="#contact-section">Contacto</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <!--Right Content-->
+            <div class="right-content col-xl-9 col-lg-8 col-md-12">
+              <div class="right-inner">
+                <div class="content-container">
+                  <div class="home-content" id="home-section">
+                    <!---Download CV-->
+                    <div class="download-cv">
+                      <a
+                        href="./CV-DANIEL-URIBE-GARCIA-2023.pdf"
+                        target="_blank"
+                        class="theme-btn download-btn"
+                        ><i class="icon"
+                          ><img
+                            src="./images/resource/icons/white/cv-1.png"
+                            alt="" /></i
+                        ><span class="txt">Descargar CV</span></a
+                      >
+                    </div>
+                    <!--Welcome-->
+                    <div class="welcome">
+                      <h4>Hola Bienvenido(a)</h4>
+                      <div class="text text-justify">
+                        Hola soy desarrollador full stack y tengo 3 años y medio
+                        de experiencia. Actualmente tengo un trabajo de tiempo
+                        completo, en el cual desarrolló distintas páginas webs y
+                        aplicaciones móviles en lenguajes como php, c# y
+                        librerías como react js y react native para movil.
+                      </div>
+                      <div class="text text-justify mt-2">
+                        Actualmente una de las cosas en la que trabajo es en una
+                        aplicación de BBVA en react native la cual le doy
+                        mantenimiento, agrego nuevos módulos y funcionalidades
+                        que vaya solicitando BBVA.
+                      </div>
+                      <div class="text text-justify mt-2">
+                        Estoy en búsqueda de un trabajo extra que permita
+                        trabajar en diferentes horarios y no horarios fijos, de
+                        preferencia después de las 6 pm y así trabajar el tiempo
+                        que sea necesario para entregar los proyectos o avances
+                        en tiempo y en forma.
+                      </div>
+                      <div class="text text-justify mt-2">
+                        Por lo mismo no busco un buen salario, sino algo
+                        considerable dependiendo de que tanto trabajo se
+                        necesite hacer.
+                      </div>
+                    </div>
+
+                    <!--About Me-->
+                    <div class="about-me">
+                      <div class="row clearfix">
+                        <!--Skills-->
+                        <div
+                          class="skills-column col-xl-12 col-lg-12 col-md-12"
+                        >
+                          <h4>Skills</h4>
+                          <div class="skills">
+                            <div class="row clearfix">
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">React js</div>
+                                    <div class="skill-sub-title">
+                                      Intermedio avanzado
                                     </div>
-
-                                    <!--About Me-->
-                                    <div class="about-me">
-                                        <div class="row clearfix">
-                                            <!--Skills-->
-                                            <div class="skills-column col-xl-12 col-lg-12 col-md-12">
-                                                <h4>Skills</h4>
-                                                <div class="skills">
-                                                    <div class="row clearfix">
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">PHP/Laravel</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="50%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="50"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">Ruby/on rails</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="40%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="40"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">HTML</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="85%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="85"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">css/sass</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="50%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="50"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">java script(js)</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="50%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="50"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">react js</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="50%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="50"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">vue3 js</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="40%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="40"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">node js</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="40%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="40"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">typescript</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="40%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="40"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">next js</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="30%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="30"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">.net</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="30%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="30"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">java</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="20%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="20"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">react native</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="30%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="30"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">mongodb | SQL</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="40%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="40"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">aws</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="20%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="20"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6">
-                                                            <div class="skill-block">
-                                                                <div class="skill-block-inner">
-                                                                    <div class="skill-title">docker</div>
-                                                                    <div class="bar">
-                                                                        <div class="bar-inner count-bar"
-                                                                            data-percent="30%">
-                                                                            <div class="count-box"><span
-                                                                                    class="count-text" data-stop="30"
-                                                                                    data-speed="2000">0</span>%
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!--Expertise-->
-                                            <div class="expertise-column col-xl-12 col-lg-12 col-md-12">
-                                                <h4>Expertise</h4>
-                                                <div class="expertise">
-
-                                                    <div class="row clearfix">
-                                                        <div class="col-lg-6 col-md-6 col-sm-12">
-                                                            <ul>
-                                                                <li>React js con custom hooks, apis (axios), redux js,
-                                                                    styled components, material ui </li>
-                                                                <li>Desarrollando proyectos desde cero, basados en
-                                                                    diseños de UX</li>
-                                                                <li>Subiendo proyectos a aws, github y heroku</li>
-                                                                <li>Programación orientada a objetos (POO)</li>
-                                                                <li>Administración de proyectos con github</li>
-                                                                <li>Web responsivas</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="col-lg-6 col-md-6 col-sm-12">
-                                                            <ul>
-                                                                <li>Seo nivel intermedio</li>
-                                                                <li>Optimización de la carga de sitios web</li>
-                                                                <li>Uso de photoshop</li>
-                                                                <li>Bases de datos relaciones y no relaciones, nivel
-                                                                    intermedio</li>
-                                                                <li>Docker y contenedores</li>
-                                                                <li>pull request y code review con github</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <!--Languages-->
-                                        <!-- <div class="languages">
-                                            <h4>Languages</h4>
-                                            <div class="row clearfix">                                                
-                                                <div class="language-block col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="inner-box">
-                                                        <div class="graph-outer">
-                                                            <input type="text" class="dial" data-fgColor="#fd7030"
-                                                                data-bgColor="#f5f5f5" data-width="200"
-                                                                data-height="200" data-linecap="normal" value="99">
-                                                            <div class="inner-text count-box"><span class="count-text"
-                                                                    data-stop="99" data-speed="2000"></span>%</div>
-                                                        </div>
-                                                        <div class="text">English <br>Experience</div>
-                                                    </div>
-                                                </div>                                                
-                                                <div class="language-block col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="inner-box">
-                                                        <div class="graph-outer">
-                                                            <input type="text" class="dial" data-fgColor="#fd7030"
-                                                                data-bgColor="#f5f5f5" data-width="200"
-                                                                data-height="200" data-linecap="normal" value="80">
-                                                            <div class="inner-text count-box"><span class="count-text"
-                                                                    data-stop="80" data-speed="2000"></span>%</div>
-                                                        </div>
-                                                        <div class="text">French <br>Experience</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                    </div>
-                                    <!--End About Me-->
-
-                                    <!--Testimonials-->
-
+                                  </div>
                                 </div>
-
-                                <!--Resume Section-->
-
-                                <div class="resume-content" id="resume-section">
-
-
-                                    <!--Experience-->
-                                    <div class="education experience">
-                                        <div class="main-title">
-                                            <span class="icon"><img src="./images/resource/icons/experience-1.png"
-                                                    alt=""></span>
-                                            <span class="txt">Trabajos</span>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <!--Block-->
-                                            <div class="edu-block col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                                <div class="inner-box">
-                                                    <div class="date"><span>01/2022 - 12/2022</span></div>
-                                                    <h5><a target="_blank" href="https://homie.mx/new">Homiemx</a></h5>
-                                                    <span class="puesto">desarrollador full stack</span>
-                                                    <div class="text mt-2">
-                                                        Estuve desarrollando nuevas funcionalidades
-                                                        para el modelo de negocio de
-                                                        rentas, así como también resolví problemas de bugs de la página
-                                                        principal.
-                                                        Desarrollé propuestas para mejorar los procesos de pruebas y
-                                                        subidas a los
-                                                        entornos de pruebas de funcionalidades. Cree nuevos end points
-                                                        de para las
-                                                        apis actuales para usar en front. Entre otras funcionalidades de
-                                                        la página
-                                                        principal de la empresa. Todo igual mediante repos de github
-                                                        (git).
-                                                    </div>
-                                                    <ul class="mt-2">
-                                                        <li>• Desarrolle back end con ruby y ruby on rails</li>
-                                                        <li>• Desarrolle front con react js (typescript y java
-                                                            script),
-                                                            vue js, html, js, css, sass</li>
-                                                        <li>• Búsquedas de datos usando elasticsearch</li>
-                                                        <li>• Consultas a bases usando mongodb y postgres</li>
-                                                        <li>• Docker y contenedores</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <!--Block-->
-                                            <div class="edu-block col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                                <div class="inner-box">
-                                                    <div class="date"><span>08/2020 - 01/2022</span></div>
-                                                    <h5>Agencia azlo y agencia ventago </h5>
-                                                    <span class="puesto">desarrollador full stack</span>
-                                                    <div class="text mt-2">
-                                                        Desarrolle proyectos desde cero que quedaran igual al diseño
-                                                        entregado por el equipo de UX. Este proyecto era tanto
-                                                        front como back end.
-                                                    </div>
-                                                    <div class="text mt-2">
-                                                        Desarrolle tiendas en línea con shopify y también con html,
-                                                        bootstrap, css, js, php y laravel.
-                                                    </div>
-                                                    <div class="text mt-2">
-                                                        Desarrolle distintos eventos para distintas empresas para
-                                                        registrar personas y estas puedan iniciar sesión y entrar al
-                                                        evento en vivo con su chat filtrado y chat abierto también.
-                                                    </div>
-                                                    <ul class="mt-2">
-                                                        <li>• Desarrolle back end con php y laravel</li>
-                                                        <li>• Desarrolle front con react js, html, css, java script
-                                                            (js), sass, bootstrap.</li>
-                                                        <li>• Bases de datos relaciones con mysql y no relaciones con
-                                                            firebase</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                            <div class="edu-block col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                                <div class="inner-box">
-                                                    <div class="date"><span>08/2019 - 01/2020</span></div>
-                                                    <h5>Clasmap, unam y agencia particular</h5>
-                                                    <span class="puesto">desarrollador full stack</span>
-                                                    <div class="text mt-2">
-                                                        Desarrolle proyectos en wordpress y código para sitios de
-                                                        empresas donde se pudieran registrar y mostrar su información.
-                                                        Así como también desarrolle varios blogs para doctores de la
-                                                        unam de morelia. Todo igual mediante repos de github (git).
-                                                    </div>
-                                                    <ul class="mt-2">
-                                                        <li>• Desarrolle back end con php y Node js</li>
-                                                        <li>• Desarrolle front con html, css, java script (js),
-                                                            bootstrap.</li>
-                                                        <li>• Bases de datos relaciones con mysql</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <!--Block-->
-                                        </div>
+                              </div>
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">Next js</div>
+                                    <div class="skill-sub-title">
+                                      Intermedio avanzado
                                     </div>
-
-                                    <!--Education-->
-                                    <div class="education">
-                                        <div class="main-title">
-                                            <span class="icon"><img src="./images/resource/icons/education-1.png"
-                                                    alt=""></span>
-                                            <span class="txt">Educación</span>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <!--Block-->
-                                            <div class="edu-block col-lg-6 col-md-6 col-sm-12">
-                                                <div class="inner-box">
-                                                    <div class="date"><span>2018 - 2020</span></div>
-                                                    <h5>Licenciado en tecnologías de la información</h5>
-                                                    <div class="text">UNIVERSIDAD TEGNOLÓGICA DE MORELIA</div>
-                                                </div>
-                                            </div>
-                                            <!--Block-->
-                                            <div class="edu-block col-lg-6 col-md-6 col-sm-12">
-                                                <div class="inner-box">
-                                                    <div class="date"><span>2017 - 2018</span></div>
-                                                    <h5>TSU en sistemas operativos</h5>
-                                                    <div class="text">UNIVERSIDAD TEGNOLÓGICA DE MORELIA</div>
-                                                </div>
-                                            </div>
-                                            <!--Block-->
-                                            <div class="edu-block col-lg-6 col-md-6 col-sm-12">
-                                                <div class="inner-box">
-                                                    <div class="date"><span>2014 - 2017</span></div>
-                                                    <h5>Soporte y mantenimiento de computadoras</h5>
-                                                    <div class="text">CETIS 120 DE MORELIA</div>
-                                                </div>
-                                            </div>
-                                            <!--Block-->
-                                        </div>
-                                    </div>
-
-                                    <!--Interests-->
-                                    <div class="interests">
-                                        <div class="main-title">
-                                            <span class="icon"><img src="./images/resource/icons/interest-1.png"
-                                                    alt=""></span>
-                                            <span class="txt">HOBBIES</span>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <!--Block-->
-                                            <div class="interest-block col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                <div class="inner-box">
-                                                    <div class="icon-box"><span class="icon def-icon"><img
-                                                                src="./images/resource/icons/orange/book-1.png"
-                                                                alt=""></span><span class="icon hvr-icon"><img
-                                                                src="./images/resource/icons/white/book-1.png"
-                                                                alt=""></span></div>
-                                                    <h5>Aprender mas sobre programación</h5>
-                                                </div>
-                                            </div>
-                                            <!--Block-->
-                                            <div class="interest-block col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                <div class="inner-box">
-                                                    <div class="icon-box"><span class="icon def-icon"><img
-                                                                src="./images/resource/icons/orange/world-1.png"
-                                                                alt=""></span><span class="icon hvr-icon"><img
-                                                                src="./images/resource/icons/white/world-1.png"
-                                                                alt=""></span></div>
-                                                    <h5>Viajar</h5>
-                                                </div>
-                                            </div>
-                                            <!--Block-->
-                                            <div class="interest-block col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                <div class="inner-box">
-                                                    <div class="icon-box"><span class="icon def-icon"><img
-                                                                src="./images/resource/icons/orange/gaming-1.png"
-                                                                alt=""></span><span class="icon hvr-icon"><img
-                                                                src="./images/resource/icons/white/gaming-1.png"
-                                                                alt=""></span></div>
-                                                    <h5>Videojuegos</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                  </div>
                                 </div>
-
-
-                                <!--Work Section-->
-
-                                <div class="work-content" id="work-section">
-                                    <div class="page-title sec-title">
-                                        <h1><span>Proyectos desarrollados</span></h1>
+                              </div>
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">React native</div>
+                                    <div class="skill-sub-title">
+                                      Intermedio
                                     </div>
-                                    <div class="mt-5 mb-5">
-                                        <h4>Poyecto más grande que e desarrollado yo solo desde
-                                            cero:
-                                            <strong>Respaldo Homie</strong>
-                                        </h4>
-                                        <ul class="mt-2">
-                                            <li>• Desarrolle el front con componentes de laravel, usando html, css, js y
-                                                bootstrap.</li>
-                                            <li>• El diseño fue entregado en figma por un diseñador UX, para pasarlo
-                                                desde cero a código.</li>
-                                            <li>• El sitio es responsivo para tablet, celular y pc.</li>
-                                            <li>• Desarrolle la base de datos con mysql.</li>
-                                            <li>• Desarolle el back end con php usando el framework de laravel.</li>
-                                            <li>• Lo subí a aws y lo configure para su funcionamiento ya en producción.
-                                            </li>
-                                            <li>• La página registra tres distintos usuarios los cuales son asesores,
-                                                propietarios e inquilinos.</li>
-                                            <li>• Hay un onboarding para asesor y propietario para poder capturar sus
-                                                datos, para poder hacer después un match para generar un
-                                                contrato para la renta de la propiedad.</li>
-                                            <li>• También cuenta con un dashboard a parte para poder ver la información
-                                                de los usuarios registrados y los contratos
-                                                pendientes o firmados.</li>
-                                            <li>• El proyecto lo desarrolle en un mes y medio.</li>
-                                        </ul>
-                                        <a href="https://daniel-uribe-respaldohomie.up.railway.app/" target="_blank">Ver
-                                            y probar la página</a>
-                                        <br />
-                                        <a href="https://github.com/DanielUribeDGSan/respaldo_homie" target="_blank">Ver
-                                            repositorio</a>
-                                        <div class=" mt-2 mb-2">
-                                            <div class="card p-2"
-                                                style="box-shadow: 0px 3px 45px 0px rgb(0 0 0 / 13%);border: 0px;border-radius: 10px;">
-                                                <img class="img-fluid"
-                                                    style="object-fit: cover; width: 100%; height: 100%;"
-                                                    src="./images/portafolio/respaldo-homie.png" alt="respaldo homie">
-                                            </div>
-
-                                        </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">Vue 3 js</div>
+                                    <div class="skill-sub-title">Básico</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">Angular 16</div>
+                                    <div class="skill-sub-title">Básico</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">
+                                      Html, css, sass
                                     </div>
-                                    <!--Portfolio Section -->
-                                    <section class="portfolio-section">
-                                        <!--MixitUp Galery-->
-                                        <div class="mixitup-gallery">
-                                            <!--Filter-->
-                                            <div class="filters clearfix">
-                                                <ul class="filter-tabs filter-btns clearfix">
-                                                    <!-- <li class="active filter" data-role="button" data-filter="all">
-                                                        All</li>                                                   -->
-                                                </ul>
-                                            </div>
+                                    <div class="skill-sub-title">
+                                      Intermedio avanzado
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">JavaScript</div>
+                                    <div class="skill-sub-title">
+                                      Intermedio
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">PHP/Laravel</div>
+                                    <div class="skill-sub-title">
+                                      Intermedio avanzado
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">.net - c#</div>
+                                    <div class="skill-sub-title">Básico</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">
+                                      Node js - Expres
+                                    </div>
+                                    <div class="skill-sub-title">Básico</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">Mongo, mysql</div>
+                                    <div class="skill-sub-title">
+                                      Intermedio avanzado
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">Docker</div>
+                                    <div class="skill-sub-title">
+                                      Intermedio
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="skills-column mb-0 col-xl-3 col-lg-4 col-md-6"
+                              >
+                                <div class="skill-block">
+                                  <div class="skill-block-inner">
+                                    <div class="skill-title">Servidores</div>
+                                    <div class="skill-sub-title">
+                                      Intermedio
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
-                                            <div class="filter-list row clearfix">
-                                                <!--Portfolio block-->
-                                                <div
-                                                    class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="inner-box">
-                                                        <div class="image"><img src="./images/portafolio/cemefi.png"
-                                                                alt="">
-                                                        </div>
-                                                        <div class="hover-box">
-                                                            <div class="hvr-upper clearfix">
-                                                                <a href="./images/portafolio/cemefi.png"
-                                                                    class="lightbox-image theme-btn"
-                                                                    data-fancybox="gallery"><span
-                                                                        class="fa fa-eye"></span></a>
-                                                            </div>
-                                                            <div class="hvr-lower">
-                                                                <!-- <div class="title"><a href="work-single.html">Branding
-                                                                                                                        Design</a></div>
-                                                                                                                <div class="cat"><a href="#">Print</a></div> -->
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                        <!--Expertise-->
+                        <div
+                          class="expertise-column col-xl-12 col-lg-12 col-md-12"
+                        >
+                          <h4>Expertise</h4>
+                          <div class="expertise">
+                            <div class="row clearfix">
+                              <div class="col-lg-6 col-md-6 col-sm-12">
+                                <ul>
+                                  <li>
+                                    React js con custom hooks, apis (axios),
+                                    redux js, styled components, material ui
+                                  </li>
+                                  <li>apps responsivas en react native</li>
+                                  <li>
+                                    Desarrollando proyectos desde cero, basados
+                                    en diseños de UX
+                                  </li>
+                                  <li>
+                                    Subiendo proyectos a aws, github y heroku
+                                  </li>
 
-                                                <!--Portfolio block-->
-                                                <div
-                                                    class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="inner-box">
-                                                        <div class="image"><img src="./images/portafolio/cemex.png"
-                                                                alt="">
-                                                        </div>
-                                                        <div class="hover-box">
-                                                            <div class="hvr-upper clearfix">
-                                                                <a href="./images/portafolio/cemex.png"
-                                                                    class="lightbox-image theme-btn"
-                                                                    data-fancybox="gallery"><span
-                                                                        class="fa fa-eye"></span></a>
-                                                            </div>
-                                                            <div class="hvr-lower">
-                                                                <!-- <div class="title"><a href="work-single.html">Branding
-                                                                                                                                                                            Design</a></div>
-                                                                                                                                                                    <div class="cat"><a href="#">Print</a></div> -->
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                  <li>
+                                    Administración de proyectos con github
+                                  </li>
+                                  <li>Web responsivas</li>
+                                </ul>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-12">
+                                <ul>
+                                  <li>Seo nivel intermedio</li>
+                                  <li>
+                                    Optimización de la carga de sitios web
+                                  </li>
+                                  <li>Uso de photoshop</li>
+                                  <li>
+                                    Bases de datos relaciones y no relaciones,
+                                    nivel intermedio
+                                  </li>
+                                  <li>Docker y contenedores</li>
+                                  <li>pull request y code review con github</li>
+                                  <li>
+                                    Programación orientada a objetos (POO)
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--End About Me-->
 
-                                                <!--Portfolio block-->
-                                                <div
-                                                    class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="inner-box">
-                                                        <div class="image"><img src="./images/portafolio/citi.png"
-                                                                alt="">
-                                                        </div>
-                                                        <div class="hover-box">
-                                                            <div class="hvr-upper clearfix">
-                                                                <a href="./images/portafolio/citi.png"
-                                                                    class="lightbox-image theme-btn"
-                                                                    data-fancybox="gallery"><span
-                                                                        class="fa fa-eye"></span></a>
-                                                            </div>
-                                                            <div class="hvr-lower">
-                                                                <!-- <div class="title"><a href="work-single.html">Branding
+                    <!--Testimonials-->
+                  </div>
+
+                  <!--Resume Section-->
+
+                  <div class="resume-content" id="resume-section">
+                    <!--Experience-->
+                    <div class="education experience">
+                      <div class="main-title">
+                        <span class="icon"
+                          ><img
+                            src="./images/resource/icons/experience-1.png"
+                            alt=""
+                        /></span>
+                        <span class="txt">Trabajos</span>
+                      </div>
+                      <div class="row clearfix">
+                        <!--Block-->
+                        <div
+                          class="edu-block col-xl-12 col-lg-12 col-md-12 col-sm-12"
+                        >
+                          <div class="inner-box">
+                            <div class="date">
+                              <span>02/2023 - actualmente</span>
+                            </div>
+                            <h5>
+                              <p>Ironbit - Digital Experiences - En remoto</p>
+                            </h5>
+                            <span class="puesto">desarrollador full stack</span>
+                            <div class="text mt-2">
+                              Soy el encargado del desarrollo de apps y webs en
+                              distintos lenguajes, frameworks y librerías.
+                              Actualmente mi proyecto principal es una app de
+                              ios y android. Esta echa en react native, es una
+                              app de BBVA en la cual sigo agregando nuevos
+                              módulos y dando mantenimiento a lo que ya esta
+                              echo.
+                            </div>
+                            <ul class="mt-2">
+                              <li>• React js | Hooks, custom hooks y redux</li>
+                              <li>• React native</li>
+                              <li>• Php - c#</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div
+                          class="edu-block col-xl-12 col-lg-12 col-md-12 col-sm-12"
+                        >
+                          <div class="inner-box">
+                            <div class="date">
+                              <span>01/2022 - 12/2022</span>
+                            </div>
+                            <h5>
+                              <a target="_blank" href="https://homie.mx/new"
+                                >Homiemx - En remoto</a
+                              >
+                            </h5>
+                            <span class="puesto">desarrollador full stack</span>
+                            <div class="text mt-2">
+                              Estuve desarrollando nuevas funcionalidades para
+                              el modelo de negocio de rentas, así como también
+                              resolví problemas de bugs de la página principal.
+                              Desarrollé propuestas para mejorar los procesos de
+                              pruebas y subidas a los entornos de pruebas de
+                              funcionalidades. Cree nuevos end points de para
+                              las apis actuales para usar en front. Entre otras
+                              funcionalidades de la página principal de la
+                              empresa. Todo igual mediante repos de github
+                              (git).
+                            </div>
+                            <ul class="mt-2">
+                              <li>
+                                • Desarrolle back end con ruby y ruby on rails
+                              </li>
+                              <li>
+                                • Desarrolle front con react js (typescript y
+                                java script), vue js, html, js, css, sass
+                              </li>
+                              <li>• Búsquedas de datos usando elasticsearch</li>
+                              <li>
+                                • Consultas a bases usando mongodb y postgres
+                              </li>
+                              <li>• Docker y contenedores</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <!--Block-->
+                        <div
+                          class="edu-block col-xl-12 col-lg-12 col-md-12 col-sm-12"
+                        >
+                          <div class="inner-box">
+                            <div class="date">
+                              <span>08/2020 - 01/2022</span>
+                            </div>
+                            <h5>Agencia azlo y agencia ventago - En remoto</h5>
+                            <span class="puesto">desarrollador full stack</span>
+                            <div class="text mt-2">
+                              Desarrolle proyectos desde cero que quedaran igual
+                              al diseño entregado por el equipo de UX. Este
+                              proyecto era tanto front como back end.
+                            </div>
+                            <div class="text mt-2">
+                              Desarrolle tiendas en línea con shopify y también
+                              con html, bootstrap, css, js, php y laravel.
+                            </div>
+                            <div class="text mt-2">
+                              Desarrolle distintos eventos para distintas
+                              empresas para registrar personas y estas puedan
+                              iniciar sesión y entrar al evento en vivo con su
+                              chat filtrado y chat abierto también.
+                            </div>
+                            <ul class="mt-2">
+                              <li>• Desarrolle back end con php y laravel</li>
+                              <li>
+                                • Desarrolle front con react js, html, css, java
+                                script (js), sass, bootstrap.
+                              </li>
+                              <li>
+                                • Bases de datos relaciones con mysql y no
+                                relaciones con firebase
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div
+                          class="edu-block col-xl-12 col-lg-12 col-md-12 col-sm-12"
+                        >
+                          <div class="inner-box">
+                            <div class="date">
+                              <span>08/2019 - 01/2020</span>
+                            </div>
+                            <h5>
+                              Clasmap, unam y agencia particular - presencial
+                            </h5>
+                            <span class="puesto">desarrollador full stack</span>
+                            <div class="text mt-2">
+                              Desarrolle proyectos en wordpress y código para
+                              sitios de empresas donde se pudieran registrar y
+                              mostrar su información. Así como también
+                              desarrolle varios blogs para doctores de la unam
+                              de morelia. Todo igual mediante repos de github
+                              (git).
+                            </div>
+                            <ul class="mt-2">
+                              <li>• Desarrolle back end con php y Node js</li>
+                              <li>
+                                • Desarrolle front con html, css, java script
+                                (js), bootstrap.
+                              </li>
+                              <li>• Bases de datos relaciones con mysql</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <!--Block-->
+                      </div>
+                    </div>
+
+                    <!--Education-->
+                    <div class="education">
+                      <div class="main-title">
+                        <span class="icon"
+                          ><img
+                            src="./images/resource/icons/education-1.png"
+                            alt=""
+                        /></span>
+                        <span class="txt">Educación</span>
+                      </div>
+                      <div class="row clearfix">
+                        <!--Block-->
+                        <div class="edu-block col-lg-6 col-md-6 col-sm-12">
+                          <div class="inner-box">
+                            <div class="date"><span>2018 - 2020</span></div>
+                            <h5>Licenciado en tecnologías de la información</h5>
+                            <div class="text">
+                              UNIVERSIDAD TEGNOLÓGICA DE MORELIA
+                            </div>
+                          </div>
+                        </div>
+                        <!--Block-->
+                        <div class="edu-block col-lg-6 col-md-6 col-sm-12">
+                          <div class="inner-box">
+                            <div class="date"><span>2017 - 2018</span></div>
+                            <h5>TSU en sistemas operativos</h5>
+                            <div class="text">
+                              UNIVERSIDAD TEGNOLÓGICA DE MORELIA
+                            </div>
+                          </div>
+                        </div>
+                        <!--Block-->
+                        <div class="edu-block col-lg-6 col-md-6 col-sm-12">
+                          <div class="inner-box">
+                            <div class="date"><span>2014 - 2017</span></div>
+                            <h5>Soporte y mantenimiento de computadoras</h5>
+                            <div class="text">CETIS 120 DE MORELIA</div>
+                          </div>
+                        </div>
+                        <!--Block-->
+                      </div>
+                    </div>
+
+                    <!--Interests-->
+                    <div class="interests">
+                      <div class="main-title">
+                        <span class="icon"
+                          ><img
+                            src="./images/resource/icons/interest-1.png"
+                            alt=""
+                        /></span>
+                        <span class="txt">HOBBIES</span>
+                      </div>
+                      <div class="row clearfix">
+                        <!--Block-->
+                        <div
+                          class="interest-block col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                        >
+                          <div class="inner-box">
+                            <div class="icon-box">
+                              <span class="icon def-icon"
+                                ><img
+                                  src="./images/resource/icons/orange/book-1.png"
+                                  alt="" /></span
+                              ><span class="icon hvr-icon"
+                                ><img
+                                  src="./images/resource/icons/white/book-1.png"
+                                  alt=""
+                              /></span>
+                            </div>
+                            <h5>Aprender mas sobre programación</h5>
+                          </div>
+                        </div>
+                        <!--Block-->
+                        <div
+                          class="interest-block col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                        >
+                          <div class="inner-box">
+                            <div class="icon-box">
+                              <span class="icon def-icon"
+                                ><img
+                                  src="./images/resource/icons/orange/world-1.png"
+                                  alt="" /></span
+                              ><span class="icon hvr-icon"
+                                ><img
+                                  src="./images/resource/icons/white/world-1.png"
+                                  alt=""
+                              /></span>
+                            </div>
+                            <h5>Viajar</h5>
+                          </div>
+                        </div>
+                        <!--Block-->
+                        <div
+                          class="interest-block col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                        >
+                          <div class="inner-box">
+                            <div class="icon-box">
+                              <span class="icon def-icon"
+                                ><img
+                                  src="./images/resource/icons/orange/gaming-1.png"
+                                  alt="" /></span
+                              ><span class="icon hvr-icon"
+                                ><img
+                                  src="./images/resource/icons/white/gaming-1.png"
+                                  alt=""
+                              /></span>
+                            </div>
+                            <h5>Videojuegos</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--Work Section-->
+
+                  <hr class="work-content" id="work-section">
+                    <div class="page-title sec-title">
+                      <h1><span>Proyectos desarrollados</span></h1>
+                    </div>
+                    <div class="mt-5 mb-5">
+                      <h4>
+                        Uno de los últimos proyecto desarrollados
+                        <strong>Danone Forum Nutrition 2023</strong>
+                      </h4>
+                      <p>
+                        Desarrolle este proyecto desde cero en 1 mes en react
+                        usando typescript, solo la parte de front end. Basándose
+                        en un diseño entregado en figma por el cliente, en el
+                        cual el sitio tiene distintas funcionalidades como:
+                      </p>
+                      <ul class="mt-2">
+                        <li>• Poder ver información de los ponentes.</li>
+                        <li>• Poder ver el programa de todo el evento.</li>
+                        <li>
+                          • Tener un player para poder ver los eventos con su
+                          chat en tiempo real.
+                        </li>
+                        <li>• Registro y login de usuarios.</li>
+                        <li>• Poder verlo en dos idiomas diferentes.</li>
+                        <li>
+                          • Poder poner tu foto dentro de un diseño del evento.
+                        </li>
+                      </ul>
+                      <div class="mt-2"></div>
+                      <p class="m-0"><strong>User:</strong> daniel.uribe.garcia07@gmail.com</p>
+                      <p class="m-0"><strong>Password:</strong> 123456</p>
+                      <div class="mt-2"></div>
+
+                      <a
+                      href="https://www.nutritionforummx.com/inicio"
+                      target="_blank"
+                      >Ver y probar la página</a
+                    >
+                    <br />
+                    <a
+                      href="https://github.com/DanielUribeDGSan/danone"
+                      target="_blank"
+                      >Ver repositorio</a
+                    >
+                    <div class="mt-2 mb-2">
+                      <div
+                        class="card p-2"
+                        style="
+                          box-shadow: 0px 3px 45px 0px rgb(0 0 0 / 13%);
+                          border: 0px;
+                          border-radius: 10px;
+                        "
+                      >
+                        <img
+                          class="img-fluid"
+                          style="object-fit: cover; width: 100%; height: 100%"
+                          src="./images/portafolio/danone.png"
+                          alt="respaldo homie"
+                        />
+                      </div>
+                    </div>
+                    </div>
+                    <hr></hr>
+
+                    <div class="mt-5 mb-5">
+                      <h4>
+                        Unos de los proyectos que trabaje en homiemx:
+                        <strong>Respaldo Homie</strong>
+                      </h4>
+                      <ul class="mt-2">
+                        <li>
+                          • Desarrolle el front con componentes de laravel,
+                          usando html, css, js y bootstrap.
+                        </li>
+                        <li>
+                          • El diseño fue entregado en figma por un diseñador
+                          UX, para pasarlo desde cero a código.
+                        </li>
+                        <li>
+                          • El sitio es responsivo para tablet, celular y pc.
+                        </li>
+                        <li>• Desarrolle la base de datos con mysql.</li>
+                        <li>
+                          • Desarolle el back end con php usando el framework de
+                          laravel.
+                        </li>
+                        <li>
+                          • Lo subí a aws y lo configure para su funcionamiento
+                          ya en producción.
+                        </li>
+                        <li>
+                          • La página registra tres distintos usuarios los
+                          cuales son asesores, propietarios e inquilinos.
+                        </li>
+                        <li>
+                          • Hay un onboarding para asesor y propietario para
+                          poder capturar sus datos, para poder hacer después un
+                          match para generar un contrato para la renta de la
+                          propiedad.
+                        </li>
+                        <li>
+                          • También cuenta con un dashboard a parte para poder
+                          ver la información de los usuarios registrados y los
+                          contratos pendientes o firmados.
+                        </li>
+                        <li>• El proyecto lo desarrolle en un mes y medio.</li>
+                      </ul>
+                      <a
+                        href="https://daniel-uribe-respaldohomie.up.railway.app/"
+                        target="_blank"
+                        >Ver y probar la página</a
+                      >
+                      <br />
+                      <a
+                        href="https://github.com/DanielUribeDGSan/respaldo_homie"
+                        target="_blank"
+                        >Ver repositorio</a
+                      >
+                      <div class="mt-2 mb-2">
+                        <div
+                          class="card p-2"
+                          style="
+                            box-shadow: 0px 3px 45px 0px rgb(0 0 0 / 13%);
+                            border: 0px;
+                            border-radius: 10px;
+                          "
+                        >
+                          <img
+                            class="img-fluid"
+                            style="object-fit: cover; width: 100%; height: 100%"
+                            src="./images/portafolio/respaldo-homie.png"
+                            alt="respaldo homie"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <!--Portfolio Section -->
+                    <section class="portfolio-section">
+                      <!--MixitUp Galery-->
+                      <div class="mixitup-gallery">
+                        <!--Filter-->
+                        <div class="filters clearfix">
+                          <ul class="filter-tabs filter-btns clearfix"></ul>
+                        </div>
+
+                        <div class="filter-list row clearfix">
+                          <!--Portfolio block-->
+                          <div
+                            class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                          >
+                            <div class="inner-box">
+                              <div class="image">
+                                <img
+                                  src="./images/portafolio/cemefi.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="hover-box">
+                                <div class="hvr-upper clearfix">
+                                  <a
+                                    href="./images/portafolio/cemefi.png"
+                                    class="lightbox-image theme-btn"
+                                    data-fancybox="gallery"
+                                    ><span class="fa fa-eye"></span
+                                  ></a>
+                                </div>
+                                <div class="hvr-lower"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!--Portfolio block-->
+                          <div
+                            class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                          >
+                            <div class="inner-box">
+                              <div class="image">
+                                <img
+                                  src="./images/portafolio/cemex.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="hover-box">
+                                <div class="hvr-upper clearfix">
+                                  <a
+                                    href="./images/portafolio/cemex.png"
+                                    class="lightbox-image theme-btn"
+                                    data-fancybox="gallery"
+                                    ><span class="fa fa-eye"></span
+                                  ></a>
+                                </div>
+                                <div class="hvr-lower"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!--Portfolio block-->
+                          <div
+                            class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                          >
+                            <div class="inner-box">
+                              <div class="image">
+                                <img
+                                  src="./images/portafolio/citi.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="hover-box">
+                                <div class="hvr-upper clearfix">
+                                  <a
+                                    href="./images/portafolio/citi.png"
+                                    class="lightbox-image theme-btn"
+                                    data-fancybox="gallery"
+                                    ><span class="fa fa-eye"></span
+                                  ></a>
+                                </div>
+                                <div class="hvr-lower">
+                                  <!-- <div class="title"><a href="work-single.html">Branding
                                                                                                                                                                                                                                     Design</a></div>
                                                                                                                                                                                                                             <div class="cat"><a href="#">Print</a></div> -->
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
 
-                                                <!--Portfolio block-->
-                                                <div
-                                                    class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="inner-box">
-                                                        <div class="image"><img src="./images/portafolio/isagenixSc.png"
-                                                                alt="">
-                                                        </div>
-                                                        <div class="hover-box">
-                                                            <div class="hvr-upper clearfix">
-                                                                <a href="./images/portafolio/isagenixSc.png"
-                                                                    class="lightbox-image theme-btn"
-                                                                    data-fancybox="gallery"><span
-                                                                        class="fa fa-eye"></span></a>
-                                                            </div>
-                                                            <div class="hvr-lower">
-                                                                <!-- <div class="title"><a href="work-single.html">Branding
-                                                                                                                                                                                                                                                                                            Design</a></div>
-                                                                                                                                                                                                                                                                                    <div class="cat"><a href="#">Print</a></div> -->
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                          <!--Portfolio block-->
+                          <div
+                            class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                          >
+                            <div class="inner-box">
+                              <div class="image">
+                                <img
+                                  src="./images/portafolio/isagenixSc.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="hover-box">
+                                <div class="hvr-upper clearfix">
+                                  <a
+                                    href="./images/portafolio/isagenixSc.png"
+                                    class="lightbox-image theme-btn"
+                                    data-fancybox="gallery"
+                                    ><span class="fa fa-eye"></span
+                                  ></a>
+                                </div>
+                                <div class="hvr-lower"></div>
+                              </div>
+                            </div>
+                          </div>
 
-                                                <!--Portfolio block-->
-                                                <div
-                                                    class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="inner-box">
-                                                        <div class="image"><img src="./images/portafolio/wavin.png"
-                                                                alt="">
-                                                        </div>
-                                                        <div class="hover-box">
-                                                            <div class="hvr-upper clearfix">
-                                                                <a href="./images/portafolio/wavin.png"
-                                                                    class="lightbox-image theme-btn"
-                                                                    data-fancybox="gallery"><span
-                                                                        class="fa fa-eye"></span></a>
-                                                            </div>
-                                                            <div class="hvr-lower">
-                                                                <!-- <div class="title"><a href="work-single.html">Branding
-                                                                                                                                                                                                                                                                                                                                                    Design</a></div>
-                                                                                                                                                                                                                                                                                                                                            <div class="cat"><a href="#">Print</a></div> -->
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                          <!--Portfolio block-->
+                          <div
+                            class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                          >
+                            <div class="inner-box">
+                              <div class="image">
+                                <img
+                                  src="./images/portafolio/wavin.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="hover-box">
+                                <div class="hvr-upper clearfix">
+                                  <a
+                                    href="./images/portafolio/wavin.png"
+                                    class="lightbox-image theme-btn"
+                                    data-fancybox="gallery"
+                                    ><span class="fa fa-eye"></span
+                                  ></a>
+                                </div>
+                                <div class="hvr-lower"></div>
+                              </div>
+                            </div>
+                          </div>
 
-                                                <!--Portfolio block-->
-                                                <div
-                                                    class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="inner-box">
-                                                        <div class="image"><img src="./images/portafolio/bru.png"
-                                                                alt="">
-                                                        </div>
-                                                        <div class="hover-box">
-                                                            <div class="hvr-upper clearfix">
-                                                                <a href="./images/portafolio/bru.png"
-                                                                    class="lightbox-image theme-btn"
-                                                                    data-fancybox="gallery"><span
-                                                                        class="fa fa-eye"></span></a>
-                                                            </div>
-                                                            <div class="hvr-lower">
-                                                                <!-- <div class="title"><a href="work-single.html">Branding
+                          <!--Portfolio block-->
+                          <div
+                            class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                          >
+                            <div class="inner-box">
+                              <div class="image">
+                                <img src="./images/portafolio/bru.png" alt="" />
+                              </div>
+                              <div class="hover-box">
+                                <div class="hvr-upper clearfix">
+                                  <a
+                                    href="./images/portafolio/bru.png"
+                                    class="lightbox-image theme-btn"
+                                    data-fancybox="gallery"
+                                    ><span class="fa fa-eye"></span
+                                  ></a>
+                                </div>
+                                <div class="hvr-lower">
+                                  <!-- <div class="title"><a href="work-single.html">Branding
                                                                                                                                         Design</a></div>
                                                                                                                                 <div class="cat"><a href="#">Print</a></div> -->
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </section>
-
                                 </div>
-
-                                <div class="contact-content" id="contact-section">
-                                    <div class="page-title sec-title">
-                                        <h1><span>Contacto</span></h1>
-                                    </div>
-                                    <!--Text-->
-                                    <div class="info-box">
-                                        <div class="row clearfix">
-
-                                            <!--Info Block-->
-                                            <div class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                <div class="inner-box">
-                                                    <div class="icon"><span class="fa fa-envelope"></span></div>
-                                                    <div class="text"><a
-                                                            href="mailto:daniel.uribe.garcia07@gmail.com">daniel.uribe.garcia07@gmail.com</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--Info Block-->
-                                            <div class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                <div class="inner-box">
-                                                    <div class="icon"><span class="fa fa-phone-alt"></span></div>
-                                                    <div class="text"><a target="_blank"
-                                                            href="https://api.whatsapp.com/send?phone=524431917018">+52
-                                                            4431917018</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--Info Block-->
-                                            <div class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                <div class="inner-box">
-                                                    <div class="icon"><span class="fa fa-map-marker-alt"></span></div>
-                                                    <div class="text"><span>Morelia Michoacán</span></div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-
+                              </div>
                             </div>
+                          </div>
                         </div>
+                      </div>
+                    </section>
+                  </div>
 
-                        <!--Copyright-->
-                        <div class="site-footer">
-                            <div class="copyright">&copy; 2022 Daniel Uribe, All Rights Reserved</div>
-                        </div>
-
+                  <div class="contact-content" id="contact-section">
+                    <div class="page-title sec-title">
+                      <h1><span>Contacto</span></h1>
                     </div>
-
+                    <!--Text-->
+                    <div class="info-box">
+                      <div class="row clearfix">
+                        <!--Info Block-->
+                        <div
+                          class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                        >
+                          <div class="inner-box">
+                            <div class="icon">
+                              <span class="fa fa-envelope"></span>
+                            </div>
+                            <div class="text">
+                              <a href="mailto:daniel.uribe.garcia07@gmail.com"
+                                >daniel.uribe.garcia07@gmail.com</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <!--Info Block-->
+                        <div
+                          class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                        >
+                          <div class="inner-box">
+                            <div class="icon">
+                              <span class="fa fa-phone-alt"></span>
+                            </div>
+                            <div class="text">
+                              <a
+                                target="_blank"
+                                href="https://api.whatsapp.com/send?phone=524431917018"
+                                >+52 4431917018</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <!--Info Block-->
+                        <div
+                          class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                        >
+                          <div class="inner-box">
+                            <div class="icon">
+                              <span class="fa fa-map-marker-alt"></span>
+                            </div>
+                            <div class="text">
+                              <span>Morelia Michoacán</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+
+              <!--Copyright-->
+              <div class="site-footer">
+                <div class="copyright">
+                  &copy; 2023 Daniel Uribe, All Rights Reserved
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <!--End Site Container -->
-
-
+      </div>
+      <!--End Site Container -->
     </div>
     <!--End pagewrapper-->
 
     <!--Scroll to top-->
-    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fas fa-arrow-up"></span></div>
+    <div class="scroll-to-top scroll-to-target" data-target="html">
+      <span class="fas fa-arrow-up"></span>
+    </div>
 
     <script src="./js/jquery.js"></script>
     <script src="./js/popper.min.js"></script>
@@ -950,6 +1093,5 @@
     <script src="./js/wow.js"></script>
     <script src="./js/appear.js"></script>
     <script src="./js/custom-script.js"></script>
-</body>
-
+  </body>
 </html>
